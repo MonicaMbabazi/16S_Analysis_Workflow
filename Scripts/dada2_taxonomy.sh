@@ -59,7 +59,7 @@ qiime feature-table merge-seqs \
   --i-data $(ls ${RESULTS_DIR}/rep-seqs-dada_*.qza | tr '\n' ' ') \
   --o-merged-data ${RESULTS_DIR}/rep-seqs-dada.qza
 
-############################################################################# End of DADA2 step #################################################################
+############################################################################# End of DADA2 step ################################################################
 #  Note: After DADA2 step you follow the same steps below, whether the dataset was run as one batch or in many batches.
 
 #################################################################################### Phylogenetic analysis 
