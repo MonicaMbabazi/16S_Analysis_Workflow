@@ -49,7 +49,6 @@ qiime dada2 denoise-paired \
   --p-n-threads 6
 
 ## Merging dada2 output files: 1. table files,  2.representative sequence files 
-
 # Collect all table files using a wildcard
 qiime feature-table merge \
   --i-tables $(ls ${RESULTS_DIR}/table-dada_*.qza | tr '\n' ' ') \
@@ -61,7 +60,6 @@ qiime feature-table merge-seqs \
   --o-merged-data ${RESULTS_DIR}/rep-seqs-dada.qza
 
 ############################################################################# End of DADA2 step #################################################################
-
 #  Note: After DADA2 step you follow the same steps below, whether the dataset was run as one batch or in many batches.
 
 #################################################################################### Phylogenetic analysis 
@@ -96,7 +94,6 @@ qiime feature-classifier classify-sklearn \
   --i-classifier /absolute-path/classifier.qza \
   --i-reads ${RESULTS_DIR}/rep-seqs-dada.qza \
   --o-classification ${RESULTS_DIR}/taxonomy.qza
-
 ### Visualize the taxonomy output
 qiime metadata tabulate \
   --m-input-file ${RESULTS_DIR}/taxonomy.qza \
@@ -108,9 +105,7 @@ qiime taxa barplot \
   --i-taxonomy ${RESULTS_DIR}/taxonomy.qza \
   --m-metadata-file /absolute-path/metadata.tsv \
   --o-visualization ${RESULTS_DIR}/taxa-bar-plots.qzv
-
 ################################################################################# End  ##############################################################################
-
 ### Important files required to generate phyloseq object
 # 1. table-dada.qza
 # 2. rooted-tree.qza
