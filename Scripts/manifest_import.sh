@@ -68,8 +68,7 @@ echo "All batches have been generated in the directory $output_dir."
 
 ############################################################################ Manifest files generated  ########################################################################################
 
-
-############################################################################ "IMPORTING DATA INTO QIIME2" #############################################################################################  
+############################################################################ "IMPORTING DATA INTO QIIME2"  
 ### Set the Results directory. Create it if not present
 RESULTS_DIR="absolute-path-output-dir"
 
