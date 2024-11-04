@@ -109,6 +109,4 @@ done
 qiime demux summarize \
   --i-data ${RESULTS_DIR}/demux.qza \
   --o-visualization ${RESULTS_DIR}/demux.qzv
-
-
 ################################################################################ Data Imported into Qiime #################################################################################################
