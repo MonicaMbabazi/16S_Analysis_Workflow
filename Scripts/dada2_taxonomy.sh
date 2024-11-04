@@ -1,12 +1,14 @@
 #!/bin/bash
-## This script is for merging DADA2 outputs from all the 15 batches and run other follow up steps like diversity and Taxonomic analysis
+
+## This script is for running DADA2, do phylogeny, and taxonomic assignment
+## Important files needed for this script: 1. demux.qza and  2. Verified metadata in a tsv format
 
 ### Setting qsub parameters
 #$ -cwd
 #$ -l h_rt=48:00:00
 #$ -l h_vmem=10G
-#$ -N Merging
-#$ -pe sharedmem 4
+#$ -N DADA2_Taxonomy
+#$ -pe sharedmem 6
 #$ -R y
 #$ -m be -M M.Mbabazi@sms.ed.ac.uk 
 #$ -P roslin_muwonge_fellowship
@@ -17,9 +19,20 @@
 module load anaconda/2024.02
 conda activate qiime2-amplicon-2024.5
 
-### Merging dada2 output from array jobs
-### QIIME2 Merging Commands
-## Here is the link for merging: "https://rpubs.com/aschrecengost/794628"
+# 1. Assume you run your entire dataset as a single dataset. Meaning you imported one manifest file and you have one demux.qza file
+## Run DADA2 using the code below
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs /absolute-path-output-dir/demux.qza \
+  --o-table /absolute-path-output-dir/table-dada.qza \
+  --o-representative-sequences /absolute-path-output-dir/rep-seqs-dada.qza \
+  --o-denoising-stats /absolute-path-output-dir/stats-dada.qza \
+  --p-trim-left-f 5 \
+  --p-trim-left-r 5 \
+  --p-trunc-len-r 220 \
+  --p-trunc-len-f 220 \
+  --p-n-threads 6
+
+# 2. If you ran your data in batches. Assume you have 15 batches. So, we have to run dada2 on each batch and then after merge dada2 outputs
 
 ## Merging dada2 table
 #DADA2_DIR="/exports/eddie/scratch/s2000755/Meta-analysis/Results"
