@@ -15,7 +15,7 @@
 
 . /etc/profile.d/modules.sh
 
-### Load the required  modules
+#### Load the required  modules
 module load anaconda/2024.02
 conda activate qiime2-amplicon-2024.5
 
