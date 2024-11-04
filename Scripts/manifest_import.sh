@@ -70,13 +70,16 @@ echo "All batches have been generated in the directory $output_dir."
 
 
 ############################################################################ "IMPORTING DATA INTO QIIME2" #############################################################################################  
+### Set the Results directory. Create it if not present
+RESULTS_DIR="absolute-path-output-dir"
+
 # 1. Importing the entire dataset with one manifest file
 ### You have to create the output directory for your results
 
 qiime tools import \
   --type 'SampleData[PairedEndSequencesWithQuality]' \
   --input-path /absolute-path/manifest.tsv \
-  --output-path /absolute-path-output-dir/demux.qza \
+  --output-path ${RESULTS_DIR}/demux.qza \
   --input-format PairedEndFastqManifestPhred33V2
 
 # 2. Importing  your dataset using different manifest files of each batch: When dada2 is to be run per batch 
@@ -89,7 +92,7 @@ for BatchN in {1..15}; do
     qiime tools import \
         --type 'SampleData[PairedEndSequencesWithQuality]' \
         --input-path /absolute-path/manifest_batches/manifest_batch_"${BatchN}".tsv \
-        --output-path /absolute-path-output-dir/demux_"${BatchN}".qza \
+        --output-path ${RESULTS_DIR}/demux_"${BatchN}".qza \
         --input-format PairedEndFastqManifestPhred33V2
 
     # Check if the command was successful
@@ -101,4 +104,11 @@ for BatchN in {1..15}; do
     fi
 
 done
+
+## Visualize the demux file to check quality for your data and this helps to set parameters for dada2 step
+qiime demux summarize \
+  --i-data ${RESULTS_DIR}/demux.qza \
+  --o-visualization ${RESULTS_DIR}/demux.qzv
+
+
 ################################################################################ Data Imported into Qiime #################################################################################################
