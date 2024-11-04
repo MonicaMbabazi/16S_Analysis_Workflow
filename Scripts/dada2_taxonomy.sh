@@ -60,11 +60,11 @@ qiime feature-table merge-seqs \
   --i-data $(ls ${RESULTS_DIR}/rep-seqs-dada_*.qza | tr '\n' ' ') \
   --o-merged-data ${RESULTS_DIR}/rep-seqs-dada.qza
 
-########################################################### End of DADA2 step #################################################################
+############################################################################# End of DADA2 step #################################################################
 
 #  Note: After DADA2 step you follow the same steps below, whether the dataset was run as one batch or in many batches.
 
-######################## Diversity analysis of the merged data #########################
+#################################################################################### Phylogenetic analysis 
 # This step takes in  dada2 output 
 qiime phylogeny align-to-tree-mafft-fasttree \
   --i-sequences ${RESULTS_DIR}/rep-seqs-dada.qza \
@@ -73,7 +73,7 @@ qiime phylogeny align-to-tree-mafft-fasttree \
   --o-tree ${RESULTS_DIR}/unrooted-tree.qza \
   --o-rooted-tree ${RESULTS_DIR}/rooted-tree.qza
 
-###### Alpha and Beta Diversity #####################################
+#################################################################################### Alpha and Beta Diversity  
 # The input files are: rooted-tree.qza and table-dada.qza
 qiime diversity core-metrics-phylogenetic \
   --i-phylogeny ${RESULTS_DIR}/rooted-tree.qza \
@@ -90,7 +90,8 @@ qiime diversity alpha-rarefaction \
   --m-metadata-file /absolute-path/metadata.tsv \
   --o-visualization ${RESULTS_DIR}/alpha-rarefaction.qzv
 
-##### Taxonomic assignment
+##################################################################################### Taxonomic assignment
+## Using the classifier that I trained
 qiime feature-classifier classify-sklearn \
   --i-classifier /absolute-path/classifier.qza \
   --i-reads ${RESULTS_DIR}/rep-seqs-dada.qza \
