@@ -30,5 +30,5 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 2. Rooted tree
 3. Taxonomy file
 4. Representative sequences
-5. This has worked
+
 
