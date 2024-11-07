@@ -13,8 +13,10 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 ```
 
 #### Tools to be installed:
+```
 1. Qiime2
 2. Phyloseq. It is an R package
+```
 
 #### Key steps:
 ##### A). Upstream Analysis using Qiime2
