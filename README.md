@@ -1,7 +1,8 @@
 # 16S_Analysis_Workflow
-This workflow has step by step instructions and scripts to 16S microbiome analysis from the start to the end.
+This workflow has step by step instructions and scripts to 16S microbiome analysis.
 
 ## Workflow Overview
+<<<<<<< HEAD
 ### Key steps, Input files, Required tools/packages
 #### Input files:
 1. paired fastq files
@@ -20,3 +21,6 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 
 ### Downstream Analysis using phyloseq
 1. Data exploration and quality check
+=======
+Created by Monica M
+>>>>>>> 5b67a24a8768504f8a7a52fad58b16ff4e9748fd
