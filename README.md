@@ -1,9 +1,9 @@
 # 16S_Analysis_Workflow
 This workflow has step by step instructions and scripts to 16S microbiome analysis.
-[WorkFlow for this Analysis](#Workflow Overview)
+[Workflow Overview](#Workflow-Overview)
 
 
-# Workflow Overview
+## Workflow Overview
 
 ### Key steps, Input files, Required tools/packages
 #### Input files:
