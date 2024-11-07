@@ -20,9 +20,15 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 4. Phylogeny and Taxonomic analysis
 
 ##### B). Downstream Analysis using phyloseq
-1. Data exploration and quality check
+1. Data importation, Exploration, and quality check
 2. Alpha Diversity analysis
 3. Beta diversity analysis
 4. PERMANOVA and CAP
+
+### Note: Define file outputs from qiime
+1. ASV table
+2. Rooted tree
+3. Taxonomy file
+4. Representative sequences
 
 
