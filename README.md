@@ -7,8 +7,10 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 
 ### Key steps, Input files, Required tools/packages
 #### Input files:
+```
 1. paired fastq files
 2. Metadata: This should be verified using Keemei and should be in tsv format
+```
 
 #### Tools to be installed:
 1. Qiime2
