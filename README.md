@@ -31,12 +31,11 @@ Link to install qiime2 [here](https://docs.qiime2.org/2024.5/install/index.html)
 2. Alpha Diversity analysis
 3. Beta diversity analysis
 4. PERMANOVA and CAP
-5. Metadata
 
 ### Note: Define file outputs from qiime
 1. ASV table
 2. Rooted tree
 3. Taxonomy file
 4. Representative sequences
-
+5. Metadata
 
