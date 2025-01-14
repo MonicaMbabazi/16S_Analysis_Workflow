@@ -4,10 +4,6 @@ Table of Contents
 * [Installation and HPC Usage](#Installation-and-HPC-Usage)
 * [Upstream Analysis using Qiime2 and DADA2](Upstream-Analysis)
 * [Downstream Analysis using phyloseq](Downstream-Analysis)
-* [Data Processing, Importation, and QC](#Data-Processing-Importation-and-QC)
-* [Denoising and Clustering Analysis using DADA2](#Denoising-and-Clustering-Analysis-Using-DADA2)
-* [Taxonomy and Phylogeny Analysis](Taxonomy-and-Phylogeny-Analysis)
-* [Downstream Analysis with Phyloseq](Downstream-Analysis-with-Phyloseq)
 * [References](#references)
 ## The pipeline is currently under active development
 
@@ -29,10 +25,11 @@ Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 
 ##  Upstream Analysis using Qiime2 and DADA2
 #### Key steps:
-1. Data processing, generating a manifest file, and importation
-2. Qaulity control to remove poor quality reads, adapters, chimeric reads etc
-3. Generating a feature table (ASV file).
-4. Phylogeny and Taxonomic analysis
+1. Data processing,Importation , and QC
+2. Denoising and Clustering Analysis using DADA2: Generating a feature table (ASV file).
+3. Taxonomy and Phylogeny Analysis
+4. Output files
+   
 ##### 1). Data processing, generating a manifest file, and importation
 
 ## Downstream Analysis using phyloseq
