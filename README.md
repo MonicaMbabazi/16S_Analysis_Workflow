@@ -4,7 +4,8 @@ Table of Contents
 * [Installation and HPC Usage](#Installation-and-HPC-Usage)
 * [Data Processing, Importation, and QC](#Data-Processing,-Importation,-and-QC)
 * [Denoising and Clustering Analysis using DADA2](#Denoising-and-Clustering-Analysis-Using-DADA2)
-* 
+* [Taxonomy and Phylogeny Analysis](Taxonomy-and-Phylogeny-Analysis)
+* [Downstream Analysis with Phyloseq](Downstream-Analysis-with-Phyloseq)
 
 
 
