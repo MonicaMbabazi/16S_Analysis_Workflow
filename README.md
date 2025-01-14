@@ -24,6 +24,7 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 
 ## Upstream Analysis using Qiime2 and DADA2
+
 #### Key steps:
 1. Data processing,Importation , and QC
 2. Denoising and Clustering Analysis using DADA2: Generating a feature table (ASV file).
@@ -35,6 +36,7 @@ Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 ## Downstream Analysis using phyloseq
 
 ##### B). Downstream Analysis using phyloseq
+
 1. Data importation, Exploration, and quality check
 2. Alpha Diversity analysis
 3. Beta diversity analysis
