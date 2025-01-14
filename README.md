@@ -1,6 +1,5 @@
 # 16S Analysis Workflow
-
-- Table of Contents
+Table of Contents
 * [Workflow overview](#workflow-overview)
 * 
 [Workflow Overview](#Workflow-Overview)
