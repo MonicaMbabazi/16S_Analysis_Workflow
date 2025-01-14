@@ -1,8 +1,7 @@
 # 16S Analysis Workflow
 Table of Contents
 * [Workflow overview](#workflow-overview)
-* 
-[Workflow Overview](#Workflow-Overview)
+* [Installation and HPC Usage]
 
 
 ## Workflow Overview
