@@ -2,6 +2,8 @@
 Table of Contents
 * [Workflow overview](#workflow-overview)
 * [Installation and HPC Usage](#Installation-and-HPC-Usage)
+* [Upstream Analysis using Qiime2 and DADA2](Upstream-Analysis)
+* [Downstream Analysis using phyloseq](Downstream-Analysis)
 * [Data Processing, Importation, and QC](#Data-Processing-Importation-and-QC)
 * [Denoising and Clustering Analysis using DADA2](#Denoising-and-Clustering-Analysis-Using-DADA2)
 * [Taxonomy and Phylogeny Analysis](Taxonomy-and-Phylogeny-Analysis)
@@ -25,13 +27,15 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 ```
 Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 
-## Data Processing, Importation, and QC
+##  Upstream Analysis using Qiime2 and DADA2
 #### Key steps:
-##### A). Upstream Analysis using Qiime2
-1. Generating a manifest file and importing data into qiime2
+1. Data processing, generating a manifest file, and importation
 2. Qaulity control to remove poor quality reads, adapters, chimeric reads etc
 3. Generating a feature table (ASV file).
 4. Phylogeny and Taxonomic analysis
+##### 1). Data processing, generating a manifest file, and importation
+
+## Downstream Analysis using phyloseq
 
 ##### B). Downstream Analysis using phyloseq
 1. Data importation, Exploration, and quality check
