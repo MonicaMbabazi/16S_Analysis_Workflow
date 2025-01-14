@@ -26,7 +26,6 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 
 ## Data Processing, Importation, and QC
-
 #### Key steps:
 ##### A). Upstream Analysis using Qiime2
 1. Generating a manifest file and importing data into qiime2
