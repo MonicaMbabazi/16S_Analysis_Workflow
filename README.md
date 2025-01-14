@@ -7,16 +7,17 @@ Table of Contents
 * [Taxonomy and Phylogeny Analysis](Taxonomy-and-Phylogeny-Analysis)
 * [Downstream Analysis with Phyloseq](Downstream-Analysis-with-Phyloseq)
 * [References](#references)
+## The pipeline is currently under active development
 
 ## Workflow Overview
-This workflow has step by step instructions and scripts to 16S microbiome analysis.
-### Key steps, Input files, Required tools/packages
+This workflow has step by step instructions and scripts to 16S microbiome analysis of a TB dataset.
+#### Insert in workflow diagram
 #### Input files:
 ```
 1. paired fastq files
 2. Metadata: This should be verified using Keemei and should be in tsv format
 ```
-
+## Installation and HPC Usage
 #### Tools to be installed:
 ```
 1. Qiime2
