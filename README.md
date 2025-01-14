@@ -23,7 +23,7 @@ This workflow has step by step instructions and scripts to 16S microbiome analys
 ```
 Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 
-##  Upstream Analysis using Qiime2 and DADA2
+## Upstream Analysis using Qiime2 and DADA2
 #### Key steps:
 1. Data processing,Importation , and QC
 2. Denoising and Clustering Analysis using DADA2: Generating a feature table (ASV file).
