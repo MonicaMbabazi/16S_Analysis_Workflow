@@ -2,6 +2,7 @@
 Table of Contents
 * [Workflow overview](#workflow-overview)
 * [Installation and HPC Usage](#Installation-and-HPC-Usage)
+* [Data Processing, Importation, and QC](#Data-Processing,-Importation,-and-QC)
 
 
 ## Workflow Overview
