@@ -6,8 +6,7 @@ Table of Contents
 * [Denoising and Clustering Analysis using DADA2](#Denoising-and-Clustering-Analysis-Using-DADA2)
 * [Taxonomy and Phylogeny Analysis](Taxonomy-and-Phylogeny-Analysis)
 * [Downstream Analysis with Phyloseq](Downstream-Analysis-with-Phyloseq)
-
-
+* [References](#references)
 
 ## Workflow Overview
 This workflow has step by step instructions and scripts to 16S microbiome analysis.
