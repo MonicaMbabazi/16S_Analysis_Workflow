@@ -19,9 +19,16 @@ This repository serves as the first publicly available framework dedicated to a 
 ### Insert in workflow diagram
 ### Dataset (Input files) Description
 This repository is built on a global microbiome meta-analysis framework, integrating data from multiple tuberculosis microbiome studies. Due to the large size of raw sequencing files (**FASTQ files**), we provide a **ready-to-use processed dataset** while also allowing users to retrieve and process the original raw data if needed.
+#### Available Datasets
+##### Global Microbiome Meta-Analysis Dataset
+```
+Global_Dataset.zip
+```
+
 ```
 1. paired fastq files
 2. Metadata: This should be verified using Keemei and should be in tsv format
+3. Global_Dataset.zip
 ```
 ## Installation and HPC Usage
 All job scripts and analysis workflows have been designed and executed on the Eddie server (University of Edinburgh High-Performance Computing Cluster). However,the pipeline is **flexible and can be adapted to run on any other HPC cluster** with minor modifications.
