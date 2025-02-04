@@ -28,6 +28,8 @@ This zipped file provides two options for running the pipeline:
   + A pre-processed **phyloseq object** that allows users to start the analysis directly in `R` without requiring raw FASTQ files
   + Users can **download, unzip, and directly start the downstream analysis** in `R` using the `phyloseq` package.
 + **Accession Number List** (`study_accession_numbers.csv`)
+  + A list of **accession numbers** for all studies included in this meta-analysis.
+  + Users who wish to **download the raw FASTQ files** can use these accession numbers to retrieve data from public repositories and process them from scratch using `QIIME 2` and `DADA 2`.
 
 ```
 1. paired fastq files
