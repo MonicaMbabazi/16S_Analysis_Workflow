@@ -37,6 +37,7 @@ This zipped file provides two options for running the pipeline:
 To ensure reproducibility and allow users to test the pipeline before working with full datasets, we provide a small sample dataset:
 + **48 paired-end FASTQ reads** (for testing purposes).
 + **Associated metadata file** for these samples.
+
 This test dataset allows users to quickly verify the functionality of the pipeline before scaling up to the full dataset.
 ```
 1. paired fastq files
