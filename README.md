@@ -21,7 +21,7 @@ This repository serves as the first publicly available framework dedicated to a 
 This repository is built on a global microbiome meta-analysis framework, integrating data from multiple tuberculosis microbiome studies. Due to the large size of raw sequencing files (**FASTQ files**), we provide a **ready-to-use processed dataset** while also allowing users to retrieve and process the original raw data if needed.
 #### Available Datasets
 ##### Global Microbiome Meta-Analysis Dataset
-**`Global_Dataset.zip`**
+**A).`Global_Dataset.zip`**
 
 This zipped file provides two options for running the pipeline:
 + **Global Phyloseq Object** (`phyloseq_obj.rds`)
@@ -30,7 +30,9 @@ This zipped file provides two options for running the pipeline:
 + **Accession Number List** (`study_accession_numbers.csv`)
   + A list of **accession numbers** for all studies included in this meta-analysis.
   + Users who wish to **download the raw FASTQ files** can use these accession numbers to retrieve data from public repositories and process them from scratch using `QIIME 2` and `DADA 2`.
-
++ **Combined & Cleaned Metadata** (`combined_metadata.tsv`)
+  + A structured metadata file containing sample-level information from all studies included in this meta-analysis.
+**Test Dataset (`Test_Data/`)**
 ```
 1. paired fastq files
 2. Metadata: This should be verified using Keemei and should be in tsv format
