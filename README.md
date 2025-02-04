@@ -22,6 +22,8 @@ This repository is built on a global microbiome meta-analysis framework, integra
 #### Available Datasets
 ##### Global Microbiome Meta-Analysis Dataset
 **`Global_Dataset.zip`**
+This zipped file provides two options for running the pipeline:
+**Global Phyloseq Object** (`phyloseq_obj.rds`)
 
 ```
 1. paired fastq files
