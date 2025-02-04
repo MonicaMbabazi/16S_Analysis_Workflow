@@ -33,6 +33,10 @@ This zipped file provides two options for running the pipeline:
   + A structured metadata file containing sample-level information from all studies included in this meta-analysis.
     
 **B) `Test Dataset (Test_Data/)`**
+To ensure reproducibility and allow users to test the pipeline before working with full datasets, we provide a small sample dataset:
++ **48 paired-end FASTQ reads** (for testing purposes).
++ **Associated metadata file** for these samples.
+  
 ```
 1. paired fastq files
 2. Metadata: This should be verified using Keemei and should be in tsv format
@@ -41,9 +45,6 @@ This zipped file provides two options for running the pipeline:
 ## Installation and HPC Usage
 All job scripts and analysis workflows have been designed and executed on the Eddie server (University of Edinburgh High-Performance Computing Cluster). However,the pipeline is **flexible and can be adapted to run on any other HPC cluster** with minor modifications.
 #### Tools to be installed:
-To ensure reproducibility and allow users to test the pipeline before working with full datasets, we provide a small sample dataset:
-+ **48 paired-end FASTQ reads** (for testing purposes).
-+ **Associated metadata file** for these samples.
 ```
 1. Qiime2
 2. Phyloseq. It is an R package
