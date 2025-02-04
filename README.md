@@ -16,8 +16,8 @@ This repository serves as the first publicly available framework dedicated to a 
 + **Reproducibility** – All scripts and steps are well-documented for easy replication and adaptation.
 + **Biological Insights** – Provides tools to explore microbial diversity, composition, and potential associations with TB.
 
-#### Insert in workflow diagram
-#### Input files:
+### Insert in workflow diagram
+### Input files:
 ```
 1. paired fastq files
 2. Metadata: This should be verified using Keemei and should be in tsv format
