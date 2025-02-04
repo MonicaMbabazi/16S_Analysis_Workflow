@@ -1,4 +1,4 @@
-# A Harmonized Pipeline for 16S Amplicon Analysis of Global Tuberculosis Microbiome Data"
+# A Harmonized Pipeline for 16S Amplicon Analysis of Global Tuberculosis Microbiome Data
 Table of Contents
 * [Workflow overview](#workflow-overview)
 * [Installation and HPC Usage](#Installation-and-HPC-Usage)
