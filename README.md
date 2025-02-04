@@ -27,6 +27,7 @@ This zipped file provides two options for running the pipeline:
 + **Global Phyloseq Object** (`phyloseq_obj.rds`)
   + A pre-processed **phyloseq object** that allows users to start the analysis directly in `R` without requiring raw FASTQ files
   + Users can **download, unzip, and directly start the downstream analysis** in `R` using the `phyloseq` package.
++ **Accession Number List** (`study_accession_numbers.csv`)
 
 ```
 1. paired fastq files
