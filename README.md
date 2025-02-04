@@ -8,7 +8,7 @@ Table of Contents
 ## The pipeline is currently under active development
 
 ## Workflow Overview
-This repository serves as the first publicly available framework dedicated to a _global-scale_ microbiome meta-analysis of tuberculosis (TB) studies_.
+This repository serves as the first publicly available framework dedicated to a **global-scale microbiome meta-analysis of tuberculosis (TB) studies**.
 
 Our goal is to provide a standardized, reproducible, and well-documented pipeline for processing and analyzing 16S rRNA amplicon sequencing data from diverse TB microbiome studies across different geographic regions. This repository is designed to help researchers harmonize datasets, apply consistent analytical methods, and derive meaningful insights into the microbial communities associated with TB.
 #### Insert in workflow diagram
