@@ -34,15 +34,14 @@ This zipped file provides two options for running the pipeline:
     
 **B) `Test Dataset (Test_Data/)`**
 
-To ensure reproducibility and allow users to test the pipeline before working with full datasets, we provide a small sample dataset:
+To ensure reproducibility and allow users to quickly test and verify the functionality of the pipeline before scaling up to the full dataset, we provide a small sample dataset:
 + **48 paired-end FASTQ reads** (for testing purposes).
 + **Associated metadata file** for these samples.
 
-This test dataset allows users to quickly verify the functionality of the pipeline before scaling up to the full dataset.
+#### In summary here are the two files with all the data:
 ```
-1. paired fastq files
-2. Metadata: This should be verified using Keemei and should be in tsv format
-3. Global_Dataset.zip
+1. Global_Dataset.zip
+2. Test_Data
 ```
 ## Installation and HPC Usage
 All job scripts and analysis workflows have been designed and executed on the Eddie server (University of Edinburgh High-Performance Computing Cluster). However,the pipeline is **flexible and can be adapted to run on any other HPC cluster** with minor modifications.
