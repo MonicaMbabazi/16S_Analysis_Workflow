@@ -38,7 +38,7 @@ To ensure reproducibility and allow users to quickly test and verify the functio
 + **48 paired-end FASTQ reads** (for testing purposes).
 + **Associated metadata file** for these samples.
 
-#### In summary here are the two files with all the data:
+#### In summary here are the two files with all the data needed to needed to run this pipeline:
 ```
 1. Global_Dataset.zip
 2. Test_Data
