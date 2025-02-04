@@ -32,6 +32,7 @@ This zipped file provides two options for running the pipeline:
   + Users who wish to **download the raw FASTQ files** can use these accession numbers to retrieve data from public repositories and process them from scratch using `QIIME 2` and `DADA 2`.
 + **Combined & Cleaned Metadata** (`combined_metadata.tsv`)
   + A structured metadata file containing sample-level information from all studies included in this meta-analysis.
+    
 **Test Dataset (`Test_Data/`)**
 ```
 1. paired fastq files
