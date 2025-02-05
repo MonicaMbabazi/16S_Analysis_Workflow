@@ -14,11 +14,16 @@ This repository serves as the first publicly available framework dedicated to a 
 The primary goal of this pipeline is to provide a **harmonized, reproducible, and scalable workflow** for conducting a global microbiome meta-analysis of tuberculosis (TB) studies using **16S rRNA amplicon sequencing data**.
 
 #### Specific Objectives:
-+ **Standardized Workflow** – A harmonized pipeline for pre-processing, filtering, taxonomic classification, and statistical analysis.
-+ **Global Meta-Analysis** – The first repository to integrate TB microbiome datasets from multiple studies worldwide.
-+ **Scalable Execution** – Designed for HPC clusters like EDDIE, but adaptable to other computing environments.
-+ **Reproducibility** – All scripts and steps are well-documented for easy replication and adaptation.
-+ **Biological Insights** – Provides tools to explore microbial diversity, composition, and potential associations with TB.
++ **Harmonize and Integrate Data**
+  + Standardize microbiome datasets from multiple TB studies across different geographic regions.
++ **Enable Flexible Analysis Approaches**
+  + Allow users to start from a **pre-processed global phyloseq object** or **download and analyze raw sequencing data** using `QIIME 2` and `DADA2`.
++ **Ensure Reproducibility and Accessibility**
+  + Offer a **test dataset** to validate the pipeline’s functionality before full-scale analysis.
+  + Provide a clear, structured documentation to guide researchers in implementing the workflow on **HPC clusters like EDDIE** or other computing environments.
++ **Support Comprehensive Microbiome Analysis**
+  + Enable alpha & beta diversity analysis, taxonomic composition studies, and differential abundance testing.
+  + Facilitate insights into the role of microbial communities in TB pathogenesis across global populations.
 
 ### Insert in workflow diagram
 
