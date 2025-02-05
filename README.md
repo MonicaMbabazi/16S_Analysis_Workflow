@@ -32,16 +32,18 @@ Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 ### Dataset Description
 This repository is built on a global microbiome meta-analysis framework, integrating data from multiple tuberculosis microbiome studies. Due to the large size of raw sequencing files (**FASTQ files**), we provide a **ready-to-use processed dataset** while also allowing users to retrieve and process the original raw data if needed.
 
-#### Available Datasets:
+#### Datasets Used in the Development of this pipeline
+The pipeline utilizes two datasets:
 ```
 1. Test_Data
 2. Global_Dataset.zip
 ```
 **1) `Test Dataset (Test_Data/)`**
 
-To ensure reproducibility and allow users to quickly test and verify the functionality of the pipeline before scaling up to the full dataset, we provide a small sample dataset:
+This small dataset is provided to **validate the functionality of the upstream analysis pipeline** before running the full dataset. It allows users to test and verify the pipeline before scaling up.
 + **48 paired-end FASTQ reads**.
 + **Associated metadata file**.
+Used to ensure `QIIME 2` and `DADA2` workflows function correctly
 
 **2) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
@@ -54,10 +56,7 @@ This zipped file provides two options for running the pipeline:
   + Users who wish to **download the raw FASTQ files** can use these accession numbers to retrieve data from public repositories and process them from scratch using `QIIME 2` and `DADA 2`.
 + **Combined & Cleaned Metadata** (`combined_metadata.tsv`)
   + A structured metadata file containing sample-level information from all studies included in this meta-analysis.
-
-
-
-
+  
 
 ## Upstream Analysis using Qiime2 and DADA2
 
