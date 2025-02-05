@@ -2,6 +2,7 @@
 Table of Contents
 * [Workflow overview](#workflow-overview)
 * [Installation and HPC Usage](#Installation-and-HPC-Usage)
+* [Datasets used in the Pipeline Development](Datasets)
 * [Upstream Analysis using Qiime2 and DADA2](#Upstream-Analysis-using-Qiime2-and-DADA2)
 * [Downstream Analysis using phyloseq](#Downstream-Analysis-using-phyloseq)
 * [References](#references)
@@ -17,7 +18,8 @@ This repository serves as the first publicly available framework dedicated to a 
 + **Biological Insights** – Provides tools to explore microbial diversity, composition, and potential associations with TB.
 
 ### Insert in workflow diagram
-### Dataset (Input files) Description
+## Datasets used in the Pipeline Development
+### Dataset Description
 This repository is built on a global microbiome meta-analysis framework, integrating data from multiple tuberculosis microbiome studies. Due to the large size of raw sequencing files (**FASTQ files**), we provide a **ready-to-use processed dataset** while also allowing users to retrieve and process the original raw data if needed.
 #### Available Datasets:
 **A) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
@@ -38,11 +40,12 @@ To ensure reproducibility and allow users to quickly test and verify the functio
 + **48 paired-end FASTQ reads** (for testing purposes).
 + **Associated metadata file** for these samples.
 
-#### In summary here are the two files with all the data needed to needed to run this pipeline:
+#### In summary here are the two datasets that were used to develop this pipeline:
 ```
-1. Global_Dataset.zip
-2. Test_Data
+1. Test_Data
+2. Global_Dataset.zip
 ```
++ 
 ## Installation and HPC Usage
 All job scripts and analysis workflows have been designed and executed on the Eddie server (University of Edinburgh High-Performance Computing Cluster). However,the pipeline is **flexible and can be adapted to run on any other HPC cluster** with minor modifications.
 #### Tools to be installed:
