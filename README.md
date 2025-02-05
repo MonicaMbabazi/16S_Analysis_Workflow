@@ -31,8 +31,13 @@ Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
 ## Datasets used in the Pipeline Development
 ### Dataset Description
 This repository is built on a global microbiome meta-analysis framework, integrating data from multiple tuberculosis microbiome studies. Due to the large size of raw sequencing files (**FASTQ files**), we provide a **ready-to-use processed dataset** while also allowing users to retrieve and process the original raw data if needed.
+
 #### Available Datasets:
-**A) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
+**A) `Test Dataset (Test_Data/)`**
+To ensure reproducibility and allow users to quickly test and verify the functionality of the pipeline before scaling up to the full dataset, we provide a small sample dataset:
++ **48 paired-end FASTQ reads** (for testing purposes).
++ **Associated metadata file**.
+**B) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
 This zipped file provides two options for running the pipeline:
 + **Global Phyloseq Object** (`phyloseq_obj.rds`)
@@ -43,13 +48,8 @@ This zipped file provides two options for running the pipeline:
   + Users who wish to **download the raw FASTQ files** can use these accession numbers to retrieve data from public repositories and process them from scratch using `QIIME 2` and `DADA 2`.
 + **Combined & Cleaned Metadata** (`combined_metadata.tsv`)
   + A structured metadata file containing sample-level information from all studies included in this meta-analysis.
-    
-**B) `Test Dataset (Test_Data/)`**
-To ensure reproducibility and allow users to quickly test and verify the functionality of the pipeline before scaling up to the full dataset, we provide a small sample dataset:
-+ **48 paired-end FASTQ reads** (for testing purposes).
-+ **Associated metadata file**.
-  
-#### In summary here are the two datasets that were used to develop this pipeline:
+
+#### In summary here are the two datasets used in the development of this pipeline:
 ```
 1. Test_Data
 2. Global_Dataset.zip
