@@ -46,7 +46,7 @@ This small dataset is provided to **validate the functionality of the upstream a
 
 **2) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
-This zipped file provides two options for running the pipeline:
+This zipped file provides **two options** for running the pipeline:
 + **Option 1: Start with the Global Phyloseq Object** (`phyloseq_obj.rds`)
   + A pre-processed phyloseq object for direct downstream analysis in `R`.
   + Eliminates the need to download and process raw FASTQ files.
