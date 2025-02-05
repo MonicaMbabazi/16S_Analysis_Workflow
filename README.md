@@ -18,6 +18,16 @@ This repository serves as the first publicly available framework dedicated to a 
 + **Biological Insights** – Provides tools to explore microbial diversity, composition, and potential associations with TB.
 
 ### Insert in workflow diagram
+
+## Installation and HPC Usage
+All job scripts and analysis workflows have been designed and executed on the Eddie server (University of Edinburgh High-Performance Computing Cluster). However,the pipeline is **flexible and can be adapted to run on any other HPC cluster** with minor modifications.
+#### Tools to be installed:
+```
+1. Qiime2
+2. Phyloseq. It is an R package
+```
+Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
+
 ## Datasets used in the Pipeline Development
 ### Dataset Description
 This repository is built on a global microbiome meta-analysis framework, integrating data from multiple tuberculosis microbiome studies. Due to the large size of raw sequencing files (**FASTQ files**), we provide a **ready-to-use processed dataset** while also allowing users to retrieve and process the original raw data if needed.
@@ -39,21 +49,16 @@ This zipped file provides two options for running the pipeline:
 To ensure reproducibility and allow users to quickly test and verify the functionality of the pipeline before scaling up to the full dataset, we provide a small sample dataset:
 + **48 paired-end FASTQ reads** (for testing purposes).
 + **Associated metadata file** for these samples.
-
++ 
 #### In summary here are the two datasets that were used to develop this pipeline:
 ```
 1. Test_Data
 2. Global_Dataset.zip
 ```
-+ 
-## Installation and HPC Usage
-All job scripts and analysis workflows have been designed and executed on the Eddie server (University of Edinburgh High-Performance Computing Cluster). However,the pipeline is **flexible and can be adapted to run on any other HPC cluster** with minor modifications.
-#### Tools to be installed:
-```
-1. Qiime2
-2. Phyloseq. It is an R package
-```
-Link to install qiime2 [here](https://docs.qiime2.org/2024.10/install/)
+
+
+
+
 
 ## Upstream Analysis using Qiime2 and DADA2
 
