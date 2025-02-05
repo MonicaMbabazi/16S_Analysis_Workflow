@@ -64,7 +64,7 @@ This zipped file provides **two options** for running the pipeline:
   + Includes a list of **accession numbers** (`study_accession_numbers.csv`) for all studies used in the meta-analysis.
   + A **cleaned and merged metadata file** (`combined_metadata.tsv`) containing sample-level information for all included studies.
   + Users who want to start from **raw sequencing data** can download the FASTQ files and process them using `QIIME 2` and `DADA2`.
-  + Then proceed to **alpha & beta diversity analysis, taxonomic composition, and differential abundance testing**.
+  + Then, proceed to **alpha & beta diversity analysis, taxonomic composition, and differential abundance**.
   
 ## Upstream Analysis using Qiime2 and DADA2
 
