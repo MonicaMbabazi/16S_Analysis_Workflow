@@ -2,7 +2,7 @@
 Table of Contents
 * [Workflow overview](#workflow-overview)
 * [Installation and HPC Usage](#Installation-and-HPC-Usage)
-* [Datasets used in the Pipeline Development](#Datasets)
+* [Datasets used in the Pipeline Development](#Datasets-used-in-the-Pipeline-Development)
 * [Upstream Analysis using Qiime2 and DADA2](#Upstream-Analysis-using-Qiime2-and-DADA2)
 * [Downstream Analysis using phyloseq](#Downstream-Analysis-using-phyloseq)
 * [References](#references)
