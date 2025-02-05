@@ -47,11 +47,11 @@ This small dataset is provided to **validate the functionality of the upstream a
 **2) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
 This zipped file provides **two options** for running the pipeline:
-**Option 1: Start with the Global Phyloseq Object** (`phyloseq_obj.rds`)
++**Option 1: Start with the Global Phyloseq Object** (`phyloseq_obj.rds`)
   + A pre-processed phyloseq object for direct downstream analysis in `R`.
   + Eliminates the need to download and process raw FASTQ files.
   + Allows for **alpha & beta diversity analysis, taxonomic composition, and differential abundance testing**.
-**Option 2: Download FASTQ Files and Process from Scratch**
++**Option 2: Download FASTQ Files and Process from Scratch**
   + Includes a list of **accession numbers** (`study_accession_numbers.csv`) for all studies used in the meta-analysis.
   + A **cleaned and merged metadata file** (`combined_metadata.tsv`) containing sample-level information for all included studies.
   + Users who want to start from **raw sequencing data** can download the FASTQ files and process them using `QIIME 2` and `DADA2`.
