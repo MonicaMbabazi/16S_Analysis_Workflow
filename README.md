@@ -34,9 +34,11 @@ This repository is built on a global microbiome meta-analysis framework, integra
 
 #### Available Datasets:
 **A) `Test Dataset (Test_Data/)`**
+
 To ensure reproducibility and allow users to quickly test and verify the functionality of the pipeline before scaling up to the full dataset, we provide a small sample dataset:
 + **48 paired-end FASTQ reads** (for testing purposes).
 + **Associated metadata file**.
+
 **B) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
 This zipped file provides two options for running the pipeline:
