@@ -44,7 +44,6 @@ This small dataset is provided to **validate the functionality of the upstream a
 + **48 paired-end FASTQ reads**.
 + **Associated metadata file**.
 
-
 **2) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
 This zipped file provides two options for running the pipeline:
@@ -55,7 +54,8 @@ This zipped file provides two options for running the pipeline:
 + **Option 2: Download FASTQ Files and Process from Scratch**
   + Includes a list of **accession numbers** (`study_accession_numbers.csv`) for all studies used in the meta-analysis.
   + A **cleaned and merged metadata file** (`combined_metadata.tsv`) containing sample-level information for all included studies.
-  + Users who want to start from **raw sequencing data can download the FASTQ files and process them using `QIIME 2` and `DADA2`.
+  + Users who want to start from **raw sequencing data** can download the FASTQ files and process them using `QIIME 2` and `DADA2`.
+  + Then proceed to **alpha & beta diversity analysis, taxonomic composition, and differential abundance testing**.
   
 ## Upstream Analysis using Qiime2 and DADA2
 
