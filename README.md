@@ -45,11 +45,10 @@ This zipped file provides two options for running the pipeline:
   + A structured metadata file containing sample-level information from all studies included in this meta-analysis.
     
 **B) `Test Dataset (Test_Data/)`**
-
 To ensure reproducibility and allow users to quickly test and verify the functionality of the pipeline before scaling up to the full dataset, we provide a small sample dataset:
 + **48 paired-end FASTQ reads** (for testing purposes).
-+ **Associated metadata file** for these samples.
-+ 
++ **Associated metadata file**.
+  
 #### In summary here are the two datasets that were used to develop this pipeline:
 ```
 1. Test_Data
