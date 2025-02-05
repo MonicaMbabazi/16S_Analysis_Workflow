@@ -40,10 +40,10 @@ The pipeline utilizes two datasets:
 ```
 **1) `Test Dataset (Test_Data/)`**
 
-This small dataset is provided to **validate the functionality of the upstream analysis pipeline** before running the full dataset. It allows users to test and verify the pipeline before scaling up.
+This small dataset is provided to **validate the functionality of the upstream analysis pipeline** before running the full dataset. It allows users to test and verify the pipeline before scaling up. It is used to ensure `QIIME 2` and `DADA2` workflows function correctly.
 + **48 paired-end FASTQ reads**.
 + **Associated metadata file**.
-Used to ensure `QIIME 2` and `DADA2` workflows function correctly
+
 
 **2) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
