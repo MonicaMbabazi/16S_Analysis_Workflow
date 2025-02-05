@@ -48,16 +48,15 @@ This small dataset is provided to **validate the functionality of the upstream a
 **2) `Global Microbiome Meta-Analysis Dataset (Global_Dataset.zip)`**
 
 This zipped file provides two options for running the pipeline:
-+ **Global Phyloseq Object** (`phyloseq_obj.rds`)
-  + A pre-processed **phyloseq object** that allows users to start the analysis directly in `R` without requiring raw FASTQ files
-  + Users can **download, unzip, and directly start the downstream analysis** in `R` using the `phyloseq` package.
-+ **Accession Number List** (`study_accession_numbers.csv`)
-  + A list of **accession numbers** for all studies included in this meta-analysis.
-  + Users who wish to **download the raw FASTQ files** can use these accession numbers to retrieve data from public repositories and process them from scratch using `QIIME 2` and `DADA 2`.
-+ **Combined & Cleaned Metadata** (`combined_metadata.tsv`)
-  + A structured metadata file containing sample-level information from all studies included in this meta-analysis.
++ **Option 1: Start with the Global Phyloseq Object** (`phyloseq_obj.rds`)
+  + A pre-processed phyloseq object for direct downstream analysis in `R`.
+  + Eliminates the need to download and process raw FASTQ files.
+  + Allows for **alpha & beta diversity analysis, taxonomic composition, and differential abundance testing**.
++ **Option 2: Download FASTQ Files and Process from Scratch**
+  + Includes a list of **accession numbers** (`study_accession_numbers.csv`) for all studies used in the meta-analysis.
+  + A **cleaned and merged metadata file** (`combined_metadata.tsv`) containing sample-level information for all included studies.
+  + Users who want to start from **raw sequencing data can download the FASTQ files and process them using `QIIME 2` and `DADA2`.
   
-
 ## Upstream Analysis using Qiime2 and DADA2
 
 #### Key steps:
